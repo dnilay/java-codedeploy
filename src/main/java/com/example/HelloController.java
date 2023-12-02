@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")
+
 public class HelloController {
 	
-	@GetMapping("/welcome")
+	@GetMapping
 	public String welcome()
 	{
 		return "Code is deployed in Code Deploy Again";
