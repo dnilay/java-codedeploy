@@ -11,7 +11,7 @@ public class HelloController {
 	@GetMapping
 	public String welcome()
 	{
-		return "Code is deployed in Code Deploy Again V2";
+		return "Code is deployed in Code Deploy Again V1";
 	}
 
 }
